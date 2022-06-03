@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: #fafafa;
+}
+
+
+p
+{
+	font-size: 20px;
+}
+.Button{
+	margin: 15px;
+	background-color:#d65c5a;
+	border-radius:5px;
+	border:1px solid #d65c5a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d65c5a;
+}
+.Button:hover {
+	background-color:#ae2d2b;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Index_Body {
+  background-image: url("images/file-20201215-15-1376y5-1200x1200.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	height: auto;
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+	z-index:0;
+}
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	z-index:0;
+}
+
+
+
+
+
+
+
+
+.Footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #232323;
+	color: white;
+	z-index:0;
+}
+
+
+
+
+.Footer_items ul {
+	 
+  display: table;
+  margin: 0 auto;
+  z-index:0;
+}
+
+
+.Foot_Copyright p{
+	display: table;
+  margin: 0 auto;
+	z-index:0;
+}
+
+.Socials {
+	height: 84px;
+	z-index:0;
+}
+
+
+.Navigation_menu {
+	z-index:1; 
+	position: absolute;
+	
+}
+
+
+
+
+
+
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+ 	text-align: center;
+	color: white;
+}
+
+ul#horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Page1_Banner {
+    background-image: url("images/rear-view-of-young-woman-standing-above-the-city-at-dawn-barcelona-spain-giof07694-1232x821.jpg");
+}
+.Page_Banner_image {
+    display: flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.container-fluid {
+    padding-left: 32px;
+    padding-right: 32px;
+	position: relative;
+    word-wrap: break-word;
+}
+.align-center {
+    text-align: center;
+}
+
+
+
+.mt-4 {
+    margin-top: 2rem;
+}
+.Page_Image {
+	width: 90%;
+}
+
+
+
+
+
+.Page1_Uren_Museum {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #fafafa;
+}
+
+
+
+
+#Placa {
+	margin-bottom: 25px;
+}
+
+.Page2_Banner {
+	background-image: url("images/calcots-foods-to-try-in-barcelona-1440-x-675-1440x675.jpg")
+}
+
+.Foot-List {
+	padding-left: 0px;
+}
+
+.Page2_Titel {
+	padding-top: 6rem;
+    padding-bottom: 0rem;
+}
+
+.Page_Image_Musubiya {
+	width: 60%;
+}
+
+.Page_Split_Vieuw {
+	padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fafafa;
+}
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+.container_Split_Vieuw {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+
+
+.Page_Image_Time {
+	width: 99%;
+}
+
+.Page4_Banner {
+	background-image: url("images/lego-sotfbarca-lasagradasidekick-800x426.png")
+}
+
+.Page3_Banner {
+	background-image: url("images/image-750x422.jpg")
+}
+
+.Page6_ContactFormulier {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+section {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section, .container, .container-fluid {
+    position: relative;
+    word-wrap: break-word;
+}
+
+
+.row {
+    margin-left: -16px;
+    margin-right: -16px;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+}
+
+.justify-content-center {
+    -webkit-justify-content: center;
+}
+
+
+
+form .row {
+    margin-left: -0.6rem;
+    margin-right: -0.6rem;
+}
+
+
+.Page6_ContactFormulier form.Formulier .mbr-section-btn {
+    text-align: center;
+    width: 100%;
+}
+form .row [class*=col] {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+
+.Padding {
+	padding-bottom: 80px;
+}
+
+.Page7_Padding {
+	padding-bottom: 140px
+}
+
+
+
+.Filler {
+	padding-top: 20px;
+}
+
+.Filler2 {
+	padding-bottom: 20px;
+}
+
+a
+{text-decoration: none;
+color: white;}
+
+.Page9_Padding {
+	padding: 10px;
+}
